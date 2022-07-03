@@ -11,7 +11,7 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
       }
       setOpen(false);
     };
-
+                                                  // capture:true 為處理冒泡事件
     document.body.addEventListener("click", onBodyClick, { capture: true });
     return () => {
       document.body.removeEventListener("click", onBodyClick, {
