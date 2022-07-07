@@ -2,7 +2,7 @@ import React,{useState,useEffect,useRef} from "react";
 import './slideshow.css';
 
 const colors = ["rgb(253, 231, 255)", "rgb(185, 201, 233)", "rgb(227, 231, 190)"];
-const delay = 3000;
+const delay = 4000;
 
 function Slideshow() {
   const [index, setIndex] = useState(0);

@@ -6,7 +6,7 @@
   
   .slideshowSlider {
     white-space: nowrap;
-    transition: ease 3000ms;
+    transition: ease 6000ms;
   }
   
   .slide {
@@ -36,5 +36,9 @@
   }
   
   .slideshowDot.active {
-    background-color: #4338c5;
+    background-color: #253945;
   }
+
+  
+
+  
