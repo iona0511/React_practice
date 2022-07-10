@@ -19,7 +19,7 @@ function Slideshow() {
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+          prevIndex === colors.length - 1 ? 0 : prevIndex + 1 
         ),
       delay
     );
