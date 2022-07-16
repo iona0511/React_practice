@@ -5,22 +5,21 @@ import Card from "./Card";
 
 
 const App =()=>{
+
     return(
-        <>
+    <>
         <div style={{width:'100%'}}>
             <Slideshow/>
             <div style={{width:'940px',margin:'0 auto'}}>
                 <div style={{display:'flex'}}>
-                    <Filterbutton names="全部餐點"/>
-                    <Filterbutton names="飲品系列"/>
-                    <Filterbutton names="餐點系列"/>
+                    <Filterbutton/>
                 </div>                
                 <div style={{display:'flex',justifyContent:'center',flexWrap:'wrap'}}>
-                    <Card/><Card/><Card/> <Card/><Card/><Card/>
+                    <Card/>
                 </div>  
             </div>
         </div>
-      </>
+    </>
     )
 }
 
