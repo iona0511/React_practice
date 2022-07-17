@@ -24,7 +24,7 @@ function JSX() {
             console.log(123);
         }}
 
-
+        <hr />
 
     </>);
 }
